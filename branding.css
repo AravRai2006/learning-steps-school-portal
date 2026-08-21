@@ -1,0 +1,10 @@
+/* Brand-only overrides: the supplied PNG remains untouched and keeps its proportions. */
+.brand img{
+  background:#fff;
+  border-radius:11px;
+  padding:3px;
+}
+
+@media (max-width:420px){
+  .brand img{padding:2px}
+}
