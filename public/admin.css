@@ -1,0 +1,4 @@
+/* Admin-only routing and header presentation. */
+.admin-page .topbar{display:none}
+.admin-nav a{white-space:nowrap;background:transparent;color:var(--muted);border:0;padding:9px 11px;border-radius:9px;font:inherit;font-weight:700;cursor:pointer;text-decoration:none}
+.admin-nav a.active{background:#293d62;color:#e9f1ff}
